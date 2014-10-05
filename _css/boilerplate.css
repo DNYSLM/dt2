@@ -36,9 +36,15 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: serif; color: #222; }
+html, button, input, select, textarea { font-family:  "Open Sans",Helvetica,Arial,sans-serif; color: #444; }
 
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body { 
+margin: 0; 
+padding-top: 2.83333em;
+font-size: 1.125em;
+line-height: 1.5em; 
+}
+
 
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -221,37 +227,13 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author: D.L. Slotboom - 500686389
+   Author: D.L. Slotboom
    ========================================================================== */
 
-/* formulier elementen niet naast elkaar */
-
-input, textarea {
-	display: block;
-}
-/* formulier radio buttons en labels wel naast elkaar */
-input[type="radio"] {
-	display: inline;
-}
-
-/* hoofdnavigatie elementen naast */
-nav#mainNav ul li {
-    display: inline;
-}
-
-/* titel is voor semantiek, maar niet zichbaar */
-header#mainHeader {
-    text-indent: -9999px;
-}
 
 
 
-/* maximaal 6 tot 10 woorden tekst, anders wordt het onleesbaar */
-section>p {
-  -webkit-columns: 3 300px;
-  -moz-columns: 3 300px;
-  columns: 3 300px;
-}
+
 
 /* =============================================================================
    border-radius
@@ -298,8 +280,10 @@ section>p {
    
    
    
-   
-   
+
+
+
+
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
