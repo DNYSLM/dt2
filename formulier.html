@@ -1,0 +1,147 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>formulier - Communication and Multimedia Design - Hogeschool van Amsterdam</title>
+<link href="_css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="_css/layout.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="_js/respond.min.js"></script>
+</head>
+
+<body>
+<div class="gridContainer clearfix">
+    <header>
+        <h1> CMD Amsterdam - Intranet </h1>
+        <p> Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam. </p>
+        <section> <img src="_img/cmd_icon_letter_c.png" alt=""> <img src="_img/cmd_icon_letter_m.png" alt=""> <img src="_img/cmd_icon_letter_d.png" alt=""> </section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Opleiding</a></li>
+                <li><a href="#">Onderwijsprogramma</a></li>
+                <li><a href="#">Organisatie</a></li>
+                <li><a href="#">Stages en projecten</a></li>
+            </ul>
+        </nav>
+        <form>
+            <input type="text" placeholder="zoek en klik">
+        </form>
+        <a href="#">profielpagina Elena Harris</a> </header>
+    <article id="dt01a">
+        <header>
+            <h2>Aanmelden</h2>
+        </header>
+        <section id="samenwerken" class="fluid">
+            <h2>Samenwerken met CMD</h2>
+            <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar. CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam. Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.</p>
+        </section>
+        <form>
+            <fieldset>
+                <legend>Contactgegevens</legend>
+                <label for="naam">Naam </label>
+                <input type="text" id="naam" placeholder="Uw naam" autofocus>
+                <label for="bedrijf">Bedrijf </label>
+                <input type="text" id="bedrijf" placeholder="Uw bedrijfsnaam" >
+                <label for="adres">Adres </label>
+                <input type="text" id="adres" placeholder="Straatnaam">
+                <label for="huisnummer">Huisummer </label>
+                <input type="number" id="huisnummer" placeholder="123">
+                <label for="toevoeging">Toevoeging </label>
+                <input type="text" id="toevoeging" placeholder="2 HG">
+                <label for="postcode">Postcode </label>
+                <input type="text" id="postcode" placeholder="1234 AB">
+                <label for="telefoonnummer">Telefoonnummer </label>
+                <input type="tel" id="telefoonnummer" placeholder="0123456789">
+                <label for="e-mail">E-mailadres </label>
+                <input type="email" id="e-mail" placeholder="uw@emailadres.nl">
+            </fieldset>
+            <fieldset>
+                <label>Ik wil mij aanmelden voor: </label>
+                <label for="aanmeldenProject">Project</label>
+                <input type="radio" name="aanmeldenProject" id="aanmeldenProject" value="Project">
+                <label for="aanmeldenStage">Stage</label>
+                <input type="radio" name="aanmeldenProject" id="aanmeldenStage" value="Stage">
+            </fieldset>
+            <fieldset>
+                <legend>Project</legend>
+                <label for="titel">Titel</label>
+                <input type="text" id="titel" placeholder="Projecttitel">
+                <label for="opdrachtomschrijving">Opdrachtomschrijving</label>
+                <textarea id="opdrachtomschrijving" placeholder="Opdrachtomschrijving"></textarea>
+                <label for="doelgroepomschrijving">Doelgroepomschrijving</label>
+                <textarea id="doelgroepomschrijving" placeholder="Doelgroepomschrijving"></textarea>
+                <label for="doelstelling">Doelstelling/ intentie van het project</label>
+                <textarea id="doelstelling" placeholder="Doelstelling/ intentie van het project"></textarea>
+                <label for="looptijd">Looptijd van het project</label>
+                <input type="text" id="looptijd" placeholder="Vul de looptijd van het project in">
+                <label for="deadline">Deadline van het project</label>
+                <input type="date" id="deadline">
+                <!-- Nog even een fatsoenlijke polyfill zoeken als er tijd over is voor oudere browsers. -->
+                
+                <p>Geschikt voor: </p>
+                <label for="stageEerstejaars">eerstejaars studenten</label>
+                <input type="radio" name="stageGeschikt" id="stageEerstejaars" value="eerstejaars">
+                <label for="stageTweedejaars">tweedejaars studenten</label>
+                <input type="radio" name="stageGeschikt" id="stageTweedejaars" value="tweedejaars">
+                <label for="stageDerdejaars">derdejaars studenten</label>
+                <input type="radio" name="stageGeschikt" id="stageDerdejaars" value="derdejaars">
+                <label for="stageAfstudeer">tweedejaars studenten</label>
+                <input type="radio" name="stageGeschikt" id="stageAfstudeer" value="afstudeer">
+                <label for="stageOnbekend">onbekend</label>
+                <input type="radio" name="stageGeschikt" id="stageOnbekend" value="onbekend">
+            </fieldset>
+            <fieldset>
+                <legend>Stage</legend>
+                <p>Geschikt voor: </p>
+                <label for="projectEerstejaars">eerstejaars studenten</label>
+                <input type="radio" name="projectGeschikt" id="projectEerstejaars" value="eerstejaars">
+                <label for="projectTweedejaars">tweedejaars studenten</label>
+                <input type="radio" name="projectGeschikt" id="projectTweedejaars" value="tweedejaars">
+                <label for="projectOnbekend">onbekend</label>
+                <input type="radio" name="projectGeschikt" id="projectOnbekend" value="onbekend">
+                <label>Hoe lang is de stage? </label>
+                <label for="tienWeken">10 weken</label>
+                <input type="radio" name="duurStage" id="tienWeken" value="tienWeken">
+                <label for="twintigWeken">20 weken</label>
+                <input type="radio" name="duurStage" id="twintigWeken" value="twintigWeken">
+                <label for="beginStage">Begin datum</label>
+                <input type="date" id="beginStage">
+                <!-- Nog even een fatsoenlijke polyfill zoeken als er tijd over is, voor oudere browsers. -->
+                
+                <label for="werkzaamheden">Beschrijving werkzaamheden: </label>
+                <textarea id="werkzaamheden" placeholder="Wat staat de student te wachten?"></textarea>
+                <label for="stageBedrijf">Bedrijfsnaam </label>
+                <input type="text" id="stageBedrijf" placeholder="Uw bedrijfsnaam" >
+                <label for="stageAdres">Adres </label>
+                <input type="text" id="stageAdres" placeholder="Straatnaam">
+                <label for="stageHuisnummer">Huisummer </label>
+                <input type="number" id="stageHuisnummer" placeholder="123">
+                <label for="stageToevoeging">Toevoeging </label>
+                <input type="text" id="stageToevoeging" placeholder="2 HG">
+                <label for="stagePostcode">Postcode </label>
+                <input type="text" id="stagePostcode" placeholder="1234 AB">
+                <label for="stageSector">Sector </label>
+                <input type="text" id="stageSector" placeholder="In welke sector bevindt uw bedrijf zich?">
+                <label for="stageCore">Core Business</label>
+                <input type="text" id="stageCore" placeholder="Hoofdproduct">
+            </fieldset>
+            <fieldset>
+                <legend>Opmerking</legend>
+                <label for="opmerking">Heeft u nog vragen en/of opmerkingen voor ons? </label>
+                <textarea id="opmerking" placeholder="Vul hier uw bericht in."></textarea>
+            </fieldset>
+        </form>
+    </article>
+    <!-- end gridContainer --> 
+</div>
+</body>
+</html>

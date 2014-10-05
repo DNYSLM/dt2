@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+input, textarea {
+	display: block;
+}
+
+input[type="radio"] {
+	display: inline;
+}
+
+/*#mainHeader {
+	background:url(../_img/uva-normalPageBanner.jpg) top center no-repeat;
+}*/
